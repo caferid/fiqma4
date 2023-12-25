@@ -1,0 +1,74 @@
+#tom_k {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+    .container {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 30px;
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+
+            .imgbox {
+                display: flex;
+                width: 370px;
+                padding: 33px 38px 0px 38px;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                border-radius: 4px;
+                background: var(--Secondary, #F5F5F5);
+            }
+
+            .textbox {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+
+                .titlebox {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 16px;
+
+                    .title {
+                        color: #000;
+                        /* Heading/32PX Medium */
+                        font-family: Inter;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 30px;
+                        /* 93.75% */
+                        letter-spacing: 1.28px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                .logbox {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    gap: 16px;
+
+                    .logo {
+                        display: flex;
+                        width: 24px;
+                        height: 24px;
+                        padding-right: 1.941px;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
